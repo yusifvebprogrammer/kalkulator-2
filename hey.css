@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+#container{
+    
+    margin-top: 100px;
+    background:white;
+    width:320px;
+    height: 250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+    display: none;
+}
+#funksiya{
+    font-size: 18px;
+    width: 50%;
+    margin-top: 10px;
+}
+.hello{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border: 1px solid blue;
+    transition: all 2s;
+}
+p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.hello:hover{
+
+    background-color: darkblue;
+}
+input{
+    width:100%;
+    padding:3px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+#container-iki{
+    margin-top: 100px;
+    background:white;
+    width:320px;
+    height: 250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+    display: none;
+}
+#a,#aa{
+   background-color: blue;
+    color: white;
+    width: 130px;
+    
+    height: 30px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-top: 10px;
+    transition: all 1s;
+}
+#aa:hover{
+    background-color: red;
+    color: black;
+}
+#a:hover{
+    background-color: red;
+    color: black;
+}
+h1{
+    color: yellow;
+    background-color: rgb(0, 255, 13);
+}
+#birfunksiya{
+    font-size: 18px;
+    width: 50%;
+    margin-top: 10px;
+}
+.hi{
+    background-color: red;
+    color: black;
+}
+.hi:hover{
+    background-color: rgb(151, 5, 5);
+
+}

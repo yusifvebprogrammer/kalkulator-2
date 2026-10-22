@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="hey.css">
+<body>
+echo "# colculator" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yusifvebprogrammer/colculator.git
+git push -u origin main
+
+    <center>
+        
+        <h1>Yusifin Hesab mekinasina xos geldiniz</h1>
+        <button id="aa" onclick="aaaa()">bir funksiyali</button>
+    <button id="a" onclick=aaa()>iki funksiyali</button>
+    <div id="container">
+    <select id="funksiya">
+        <option value="null">bir funksiya secin</option>
+        <option value="+">+  topla</option>
+        <option value="-">-  cix</option>
+        <option value="*">*  vur</option>
+        <option value="/">/  bol</option>
+        <option value="%">qaliq</option>
+        <option value="**">ust</option>
+        <option value="eebob">əbob</option>
+        <option value="eekob">əkob</option>
+    </select>
+    <br>
+    <br>
+    <input type="number" placeholder="ilk eded" id="ilk" name="b">
+    <br>
+    <br>
+    <input type="number" id="iki" placeholder="ikinci eded" name="a">
+    <br>
+    <br>
+    <button onclick="yusif()" class="hello">hesabla</button>
+    <button onclick="restart()" class="hello hi">restart</button>
+    <br>
+    <p id="sonuc"></p>
+    <p id="problem"></p>
+    </div>
+    <div id="container-iki">
+        <br>
+        <br>
+        <select id="birfunksiya">
+            <option value="f">bir funksiya secin</option>
+            <option value="sqrt">kok alti</option>
+            <option value="sqrtkub">kub kok alti</option>
+            <option value="!">! factorial</option>
+            <option value="modul">modulu</option>
+            <option value="raund">yuvarklasdirma</option>
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="tan">tan</option>
+            <option value="log">tebi logarifiya</option>
+            <option value="log10">10 esasli log</option>
+            <option value="log2">2 esasli log</option>  
+            <option value="exp">e - nin quveti</option>
+            <option value="cemard">cemardicil</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <input required min="1" max="100" type="number" placeholder="ededi gir"  id="sah">
+        <br>
+        <br>
+        <br>
+        <button onclick="yusif1()" class="hello">hesabla</button>
+        <button onclick="restart() " class="hello hi">restart</button>
+        <p id="sonuc20"></p>
+        <p id="problem20"></p>
+    </div>
+    </center>
+     <script src="hey.js"></script>
+
+</body>
+</html>
